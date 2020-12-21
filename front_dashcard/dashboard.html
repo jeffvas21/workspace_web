@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+
+        
+    <script src="dashboard.js"></script>
+    <link href="dashboard.css" rel="stylesheet">
+    <title>.: DashBoard :.</title>
+</head>
+
+<body onload="carregaDash()">
+    <div class="container">
+
+        
+
+        <div class="row">
+            <div class="col-2">
+
+                <div class="navbar-header">
+                    <img style="max-width:90px; margin-top: 7px;"
+                        src="../front_dashcard/imagem/logo-itau-varejo-desktop.webp" class="img-responsive"
+                        alt="Responsive image">
+                </div>
+
+            </div>
+            <div class="col-10 text-center">
+
+                <h2>Sistema DashCard</h2><br><br>
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>DashBoard do Agente Financeiro</h2>
+            </div>
+        </div><br>
+
+        <div class="row">
+            <label>agente</label>
+            <div class="col-6" id="nomeAgente">
+                ***
+            </div>
+
+            <div class="col-6" id="volumeAgente">
+                ***
+            </div>
+
+        </div><br>
+        <label>distribuição de transações</label>
+        <div class="row">
+    
+            <div class="col-12" id="totalSucesso">
+                ***
+            </div>
+ 
+        </div><br>
+        
+        <div class="row">
+ 
+            <div class="col-12" id="totalFalha">
+                ***
+            </div>
+ 
+        </div><br>
+   
+        <div class="row">
+ 
+            <div class="col-12" id="totalFraude">
+                ***
+            </div>
+ 
+        </div>
+        
+    </div>
+    <div class="container">
+        <br>
+        <canvas id="meuGrafico" width="100%"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

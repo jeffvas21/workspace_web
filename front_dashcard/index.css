@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    background-image: url(../front_dashcard/imagem/fundo6.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#txtSenha{
+    position: relative;
+    left :10px;
+    width: 400px;  
+}
+
+#txtLogin{
+    position: relative;
+    left:10px;
+    width: 400px;  
+}
+

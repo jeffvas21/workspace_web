@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    background-image: url(../front_dashcard/imagem/fundo6.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+label {
+    padding: 5px;
+    border-radius: 10px;
+    color: rgba(95, 94, 94, 0.787);
+
+
+}

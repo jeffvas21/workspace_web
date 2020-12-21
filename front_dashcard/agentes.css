@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    background-image: url(../front_dashcard/imagem/fundo6.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+.linhaPar{
+    background-color: black;
+}
+
+.linhaImpar{
+    background-color: rgb(36, 35, 35);
+}
